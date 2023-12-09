@@ -1,0 +1,27 @@
+.banner{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-family: var(--fonte_principal);
+    gap: 3em;
+    margin: 5em 0;
+}
+
+.banner_sobre-nos{
+    color: var(--cor_vinho);
+    font-weight: 600;
+}
+
+.banner_titulo{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.banner_descricao{
+    color: var(--cor_cinza_claro);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    width: 46%;
+}
