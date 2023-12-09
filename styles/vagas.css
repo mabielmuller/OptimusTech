@@ -1,0 +1,39 @@
+.vagas{
+    font-family: var(--fonte_principal);
+    margin: 8em;
+}
+
+.chamada{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap:20px
+}
+
+.chamada_subtitulo{
+    background: rgba(142, 36, 36, 0.05);
+    text-align: center;
+    padding: 0.5em;
+    margin: auto;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--cor_vinho);
+    border-radius: 16px;
+}
+
+.chamada_titulo{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.chamada_descricao{
+    color: var(--cor_cinza_claro);
+    font-size: 20px;
+}
+
+.imagem_chamada{
+    width: 1226px;
+    height: 500px;
+    margin: 2em 0;
+}
