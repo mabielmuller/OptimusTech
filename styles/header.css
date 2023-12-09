@@ -1,0 +1,49 @@
+.cabecalho {
+    background-color: var(--cor_branco);
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 4em;
+    font-family: var(--fonte_principal);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo_titulo {
+    margin-left: 0.5em;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.lista_menu {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    margin-right: 30%;
+}
+
+.menu_link {
+    padding: 1em;
+    color: var(--cor_cinza_claro);
+    text-decoration: none;
+
+}
+
+.botoes_cabecalho {
+    display: flex;
+    gap: 1em;
+}
+
+.botoes_link {
+    padding: 0.8em;
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+.botao_cadastrar {
+    background-color: var(--cor_vinho);
+    border: 1px solid var(--cor_vinho);
+    color:var(--cor_branco);
+}

@@ -1,0 +1,17 @@
+@import url(styles/header.css);
+
+
+
+
+:root {
+    --cor_vinho: #8E2424;
+    --cor_cinza_escuro: #3A404E;
+    --cor_cinza_claro: #667085;
+    --cor_branco: #ffff;
+    --fonte_principal: "Inter";
+}
+
+body{
+    font-size: 16px;
+    font-weight: 500;
+}
