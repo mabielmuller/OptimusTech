@@ -37,3 +37,47 @@
     height: 500px;
     margin: 2em 0;
 }
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1em 20%;
+}
+
+.card_vaga{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.categoria{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 1.5em 0 1.5em 0;
+}
+
+.descricao{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 24px 24px 28px 24px;
+    border-radius: 16px;
+    border: 1px solid var(--gray-200, #EAECF0);
+    background: var(--base-white, #FFF);
+    width: 100vh;
+}
+
+.vaga_titulo{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card_dados_vaga{
+    display: flex;
+    gap: 24px;
+}
+.dados_vaga{
+    color: var(--cor_cinza_claro);
+    font-size: 16px;
+    font-weight: 500;
+}
