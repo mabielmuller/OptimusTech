@@ -2,7 +2,8 @@
 @import url(styles/banner.css);
 @import url(styles/metricas.css);
 @import url(styles/vagas.css);
-
+@import url(styles/depoimentos.css);
+@import url(styles/footer.css);
 
 
 
@@ -11,6 +12,7 @@
     --cor_cinza_escuro: #3A404E;
     --cor_cinza_claro: #667085;
     --cor_branco: #ffff;
+    --cinza_claro_footer: #F9FAFB;
     --fonte_principal: "Inter";
 }
 

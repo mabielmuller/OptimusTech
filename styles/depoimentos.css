@@ -1,0 +1,36 @@
+.container_depoimentos {
+    display: flex;
+    padding: 64px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    align-self: stretch;
+    background: rgba(195, 25, 25, 0.03);
+    border-radius: 16px;
+    margin: 7em;
+    font-family: var(--fonte_principal);
+}
+
+.subtitulo_depoimentos{
+    font-size: 14px;
+    font-weight: 600;
+    color:var(--cor_vinho);
+}
+
+.depoimentos_titulo{
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+    width: 90%;
+}
+
+.nome_depoimento{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.função_depoimento{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cor_cinza_claro);
+}

@@ -1,0 +1,47 @@
+.rodape {
+    background-color: var(--cinza_claro_footer);
+    display: flex;
+    flex-direction: column;
+    padding: 96px 0px;
+    align-items: center;
+    gap: 32px;
+    align-self: stretch;
+    font-family: var(--fonte_principal);
+}
+
+.rodape_titulo{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.rodape_subtitulo{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cor_cinza_claro);
+}
+
+.formulario_email{
+    display: flex;
+    gap: 1em;
+}
+
+.input_email{
+    padding: 0.5em;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    width: 40vh;
+    
+}
+
+.input_email::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cor_cinza_claro);
+}
+
+.direitos_reservados{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cor_cinza_claro);
+}
